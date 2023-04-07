@@ -1,0 +1,123 @@
+.container-chat-box {
+  width: 100%;
+  height: calc(100% - 121px);
+  background-image: url("../../assets/img/fundo_whatsapp.png");
+  background-position: left center;
+}
+
+.chat-box-overflow {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  flex-direction: column-reverse;
+  /* justify-content: flex-end; */
+}
+
+.box-message {
+  display: flex;
+  width: 100%;
+}
+
+.message-length {
+  display: flex;
+  max-width: 65%;
+}
+
+.message-time {
+  position: relative;
+  display: flex;
+  min-height: 26px;
+  margin: 0px 63px 8px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.174);
+  background-color: rgb(212, 255, 212);
+}
+
+.message-time.other::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -9px;
+  width: 15px;
+  height: 15px;
+  background: linear-gradient(230deg, white, white 50%, transparent 50%, transparent);
+}
+
+.message-time.my::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -9px;
+  width: 15px;
+  height: 15px;
+  background: linear-gradient(
+    135deg,
+    rgb(212, 255, 212),
+    rgb(212, 255, 212) 50%,
+    transparent 50%,
+    transparent
+  );
+}
+
+.box-message.my {
+  justify-content: flex-end;
+}
+
+.box-message.other {
+  justify-content: flex-start;
+}
+
+.box-message.other .message-time {
+  background-color: white;
+}
+
+.message {
+  padding-right: 34px;
+}
+
+.message span {
+  font-size: 14px;
+}
+
+.message-time.my .message {
+  padding-right: 52px;
+}
+
+.message-time.my .time {
+  bottom: -6px;
+}
+
+.time {
+  position: absolute;
+  right: 6px;
+  bottom: 2px;
+  display: flex;
+}
+
+.time span {
+  font-size: 11px;
+}
+
+.icon-status-message svg {
+  padding-left: 2px;
+  color: rgba(7, 184, 215, 0.903);
+  transform: rotate(-6deg);
+}
+
+.space-box-chat {
+  padding: 6px 0;
+}
+
+@media (max-width: 1639px) {
+  .message-time {
+    margin: 0px 50px 8px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .message-time {
+    margin: 0px 40px 8px;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GQRNi+GZuWA67+4iHgbXI0hubu3BkiIPNTMgQ5gFkuM1d41vJEQqrzwPZVkBVGAyvDBZkIUv7MN7kQTBWwTOmg==",
+  "success": true,
+  "projectFilePath": "C:\\temp\\Portfolio\\whatsapp\\back-end\\Whatsapp\\Whatsapp.Application\\Whatsapp.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lucas\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

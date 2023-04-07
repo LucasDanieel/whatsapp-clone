@@ -1,0 +1,14 @@
+.no-content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(var(--color-header) 0%, var(--color-header) 99.4%, #25d366 99.4%, #25d366 100%);
+}
+
+.no-content span{
+  margin: 40px 0 72px 0;
+  font-size: 32px;
+  font-weight: 300;
+}

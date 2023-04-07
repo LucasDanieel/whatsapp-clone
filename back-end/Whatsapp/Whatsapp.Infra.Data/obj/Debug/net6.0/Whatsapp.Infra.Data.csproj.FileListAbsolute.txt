@@ -1,0 +1,15 @@
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Infra.Data\obj\Debug\net6.0\Whatsapp.Infra.Data.csproj.AssemblyReference.cache
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Infra.Data\obj\Debug\net6.0\Whatsapp.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Infra.Data\obj\Debug\net6.0\Whatsapp.Infra.Data.AssemblyInfoInputs.cache
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Infra.Data\obj\Debug\net6.0\Whatsapp.Infra.Data.AssemblyInfo.cs
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Infra.Data\obj\Debug\net6.0\Whatsapp.Infra.Data.csproj.CoreCompileInputs.cache
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Infra.Data\bin\Debug\net6.0\Whatsapp.Infra.Data.deps.json
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Infra.Data\bin\Debug\net6.0\Whatsapp.Infra.Data.dll
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Infra.Data\bin\Debug\net6.0\Whatsapp.Infra.Data.pdb
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Infra.Data\bin\Debug\net6.0\Whatsapp.Domain.dll
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Infra.Data\bin\Debug\net6.0\Whatsapp.Domain.pdb
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Infra.Data\obj\Debug\net6.0\Whatsapp.Infra.Data.csproj.CopyComplete
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Infra.Data\obj\Debug\net6.0\Whatsapp.Infra.Data.dll
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Infra.Data\obj\Debug\net6.0\refint\Whatsapp.Infra.Data.dll
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Infra.Data\obj\Debug\net6.0\Whatsapp.Infra.Data.pdb
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Infra.Data\obj\Debug\net6.0\ref\Whatsapp.Infra.Data.dll

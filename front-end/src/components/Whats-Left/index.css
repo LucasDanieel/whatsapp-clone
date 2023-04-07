@@ -1,0 +1,21 @@
+.container-whats-left {
+  position: relative;
+  flex: 30%;
+  max-height: 100%;
+  border-right: 1px solid #e0e1e3;
+  background-color: #fff;
+  user-select: none;
+}
+
+
+@media (max-width: 1300px) {
+  .container-whats-left {
+    flex: 46.7%;
+  }
+}
+
+@media (max-width: 900px) {
+  .container-whats-left {
+    flex: 57.4%;
+  }
+}

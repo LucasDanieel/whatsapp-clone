@@ -1,0 +1,11 @@
+.container-whats-right {
+  display: flex;
+  flex: 70%;
+  height: 100%;
+}
+
+.group-right{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
