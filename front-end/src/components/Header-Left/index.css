@@ -1,0 +1,75 @@
+.header-whats-left {
+  display: flex;
+  height: 59px;
+  width: 100%;
+  background-color: var(--color-header);
+}
+
+.my-image-left {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 80%;
+  height: 100%;
+}
+
+.my-image-left img {
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.my-image-left .ppled2lx {
+  margin-left: 16px;
+}
+
+.icons-whats-left {
+  flex: 20%;
+  justify-content: space-between;
+}
+
+.icons-whats-left .bi-chat-left-text-fill {
+  margin-top: 1px;
+}
+
+.icons-whats-left .bi-three-dots-vertical {
+  margin-bottom: 1px;
+}
+
+.icons-whats-left svg {
+  margin-right: 26px;
+}
+
+.drop-box.show-drop-box{
+  display: block;
+}
+
+.drop-box{
+  display: none;
+  position: absolute;
+  top: 52px;
+  right: 20px;
+  width: 210px;
+  height: 180px;
+  border-radius: 4px;
+  z-index: 10;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.238);
+  background-color: white;
+}
+
+.drop-box ul{
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.drop-box ul li{
+  padding: 9px 0 9px 20px;
+}
+
+.drop-box ul li:hover{
+  background-color: rgb(241, 243, 244);
+}

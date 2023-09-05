@@ -1,0 +1,45 @@
+.Clip-Vertical {
+  display: flex;
+  position: absolute;
+  width: 70px;
+  height: 0px;
+  bottom: 46px;
+  left: -5px;
+  justify-content: center;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.Clip-Vertical.show-vertical-bar {
+  height: 60px;
+}
+
+.Clip-Vertical.show-vertical-bar .gallery {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+}
+
+.gallery {
+  display: flex;
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    rgb(165, 60, 196) 0%,
+    rgb(165, 60, 196) 50%,
+    rgb(193, 77, 228) 50%,
+    rgb(193, 77, 228) 100%
+  );
+  transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.gallery input {
+  display: none;
+}
+
+.bi-image {
+  color: white;
+}

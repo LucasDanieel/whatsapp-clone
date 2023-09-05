@@ -1,0 +1,16 @@
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\obj\Debug\net6.0\Whatsapp.Application.csproj.AssemblyReference.cache
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\obj\Debug\net6.0\Whatsapp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\obj\Debug\net6.0\Whatsapp.Application.AssemblyInfoInputs.cache
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\obj\Debug\net6.0\Whatsapp.Application.AssemblyInfo.cs
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\obj\Debug\net6.0\Whatsapp.Application.csproj.CoreCompileInputs.cache
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\bin\Debug\net6.0\Whatsapp.Application.deps.json
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\bin\Debug\net6.0\Whatsapp.Application.dll
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\bin\Debug\net6.0\Whatsapp.Application.pdb
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\bin\Debug\net6.0\Whatsapp.Domain.dll
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\bin\Debug\net6.0\Whatsapp.Domain.pdb
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\obj\Debug\net6.0\Whatsapp.Application.csproj.CopyComplete
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\obj\Debug\net6.0\Whatsapp.Application.dll
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\obj\Debug\net6.0\refint\Whatsapp.Application.dll
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\obj\Debug\net6.0\Whatsapp.Application.pdb
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\obj\Debug\net6.0\ref\Whatsapp.Application.dll
+C:\temp\Portfolio\whatsapp\back-end\Whatsapp\Whatsapp.Application\bin\Debug\net6.0\appsettings.Development.json

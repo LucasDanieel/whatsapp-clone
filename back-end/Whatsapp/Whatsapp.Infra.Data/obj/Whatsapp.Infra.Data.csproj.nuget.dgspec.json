@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\temp\\Portfolio\\whatsapp\\back-end\\Whatsapp\\Whatsapp.Infra.Data\\Whatsapp.Infra.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\temp\\Portfolio\\whatsapp\\back-end\\Whatsapp\\Whatsapp.Domain\\Whatsapp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\temp\\Portfolio\\whatsapp\\back-end\\Whatsapp\\Whatsapp.Domain\\Whatsapp.Domain.csproj",
+        "projectName": "Whatsapp.Domain",
+        "projectPath": "C:\\temp\\Portfolio\\whatsapp\\back-end\\Whatsapp\\Whatsapp.Domain\\Whatsapp.Domain.csproj",
+        "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
+        "outputPath": "C:\\temp\\Portfolio\\whatsapp\\back-end\\Whatsapp\\Whatsapp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.20.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\temp\\Portfolio\\whatsapp\\back-end\\Whatsapp\\Whatsapp.Infra.Data\\Whatsapp.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\temp\\Portfolio\\whatsapp\\back-end\\Whatsapp\\Whatsapp.Infra.Data\\Whatsapp.Infra.Data.csproj",
+        "projectName": "Whatsapp.Infra.Data",
+        "projectPath": "C:\\temp\\Portfolio\\whatsapp\\back-end\\Whatsapp\\Whatsapp.Infra.Data\\Whatsapp.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
+        "outputPath": "C:\\temp\\Portfolio\\whatsapp\\back-end\\Whatsapp\\Whatsapp.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\temp\\Portfolio\\whatsapp\\back-end\\Whatsapp\\Whatsapp.Domain\\Whatsapp.Domain.csproj": {
+                "projectPath": "C:\\temp\\Portfolio\\whatsapp\\back-end\\Whatsapp\\Whatsapp.Domain\\Whatsapp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

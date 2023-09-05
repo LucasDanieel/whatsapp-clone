@@ -1,0 +1,117 @@
+.container-login {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(72, 65, 74);
+}
+
+.box-login {
+  width: 500px;
+  height: 300px;
+  border-radius: 14px;
+  color: rgb(203, 213, 213);
+  background-color: rgb(36, 29, 41);
+  transition: all 500ms;
+  font-weight: 500;
+}
+
+.title {
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title h3 {
+  font-size: 28px;
+  margin: 15px;
+}
+
+.title span {
+  font-size: 18px;
+}
+
+.input-login {
+  display: flex;
+  height: 35%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.label-login {
+  padding-left: 30px;
+}
+
+.label-login label {
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.label-login input {
+  height: 28px;
+  width: 70%;
+  padding-left: 5px;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: rgb(203, 213, 213);
+  background-color: rgb(61, 54, 65);
+}
+
+.create-login {
+  display: flex;
+  height: 30%;
+  padding-left: 40px;
+}
+
+.buttons {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: rgb(0, 146, 146);
+}
+
+.buttons a:hover {
+  color: rgb(2, 107, 107);
+}
+
+.buttons button {
+  height: 30px;
+  width: 70px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 4px;
+  color: rgb(203, 213, 213);
+  background-color: rgb(32, 70, 72);
+}
+
+.buttons button:hover {
+  background-color: rgb(24, 53, 55);
+  color: rgb(176, 181, 181);
+}
+
+.create {
+  height: 320px;
+}
+
+.create .input-login {
+  height: 45%;
+}
+
+.create .create-login {
+  height: 20%;
+}
+
+.create button {
+  width: 100px;
+}

@@ -1,0 +1,88 @@
+.disconnect {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  background-color: rgba(255, 255, 255, 0.832);
+}
+
+.disconnect.show-disconnect {
+  display: flex;
+}
+
+.box-disconnect {
+  display: flex;
+  width: 500px;
+  height: 195px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.362);
+}
+
+.message-buttons {
+  position: relative;
+  width: 452px;
+  height: 160px;
+}
+
+.alert-message {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.alert-message p {
+  font-size: 20px;
+  margin: 3px 0 17px 0;
+}
+
+.alert-message span {
+  font-size: 14px;
+}
+
+.disconnect-buttons {
+  position: absolute;
+  bottom: 3px;
+  right: 0;
+}
+
+.disconnect-buttons button {
+  height: 38px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#cancel {
+  width: 108px;
+  color: #007e63;
+  border: 1px solid rgb(230, 229, 229);
+  background-color: white;
+}
+
+#cancel:hover {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.13);
+}
+
+#log-out {
+  margin: 0 4px 0 14px;
+  width: 130px;
+  color: white;
+  background-color: #007e63;
+}
+
+#log-out:hover {
+  background-color: #037058;
+}

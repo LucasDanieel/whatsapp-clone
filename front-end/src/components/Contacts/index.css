@@ -1,0 +1,179 @@
+.contacts-whats-left {
+  height: calc(100% - 109px);
+  width: 100%;
+}
+
+.box-contacts-overflow {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.box-contact {
+  display: flex;
+  width: 100%;
+  height: 72px;
+}
+
+.box-contact:hover {
+  background-color: #f8f9f9;
+  cursor: pointer;
+}
+
+.image-contact {
+  display: flex;
+  width: 77px;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-contact svg,
+.image-contact img {
+  height: 49px;
+  width: 49px;
+  margin: 0 3px 5px 0;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name-message-contact {
+  display: flex;
+  width: calc(100% - 77px);
+  height: 71px;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.067);
+}
+
+.messages {
+  max-width: 100%;
+}
+
+.name-hour {
+  display: flex;
+  margin-bottom: 2px;
+  justify-content: space-between;
+}
+
+.name-hour .name span {
+  font-size: 17px;
+}
+
+.name-hour .hours span,
+.icon svg {
+  font-size: 12px;
+  margin-right: 15px;
+}
+
+.messages.has-new-message .name-hour .hours span {
+  color: #08ce18;
+}
+
+.message-icon {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2px;
+  justify-content: space-between;
+}
+
+.message {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  transition: all 0.1s;
+}
+
+#text-contact{
+  display: flex;
+  align-items: center;
+}
+
+#text-contact span{
+  padding-left: 4px;
+}
+
+.message span {
+  width: 94%;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.message.hover {
+  width: 88%;
+}
+
+.messages.has-new-message .message.hover {
+  width: 80%;
+}
+
+.messages.has-new-message .message span {
+  max-width: 90%;
+}
+
+.message.hover span {
+  max-width: 90%;
+}
+
+.icon-send {
+  height: 15px;
+  width: 18px;
+}
+
+.icon-send svg {
+  transform: rotate(-2deg);
+}
+
+.icon {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  transition: all 0.1s;
+}
+
+.icon.hover {
+  width: 10%;
+}
+
+.messages.has-new-message .icon.hover {
+  width: 20%;
+}
+
+.icon span {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 8px;
+  margin-right: 2px;
+  border-radius: 50%;
+  color: white;
+  background-color: #08ce18;
+}
+
+.icon span.more-ten {
+  padding: 0 5px;
+}
+
+.icon.hover span {
+  margin-right: 8px;
+}
+
+.icon svg {
+  opacity: 0;
+  transform: translateX(15px);
+  transition: all 0.1s;
+}
+
+.icon.hover svg {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.icon-send .bi-check-all {
+  margin-right: 3px;
+}
+
+.icon-send .blue {
+  color: rgb(5, 154, 228);
+}
