@@ -1,6 +1,6 @@
 # WhatsApp Clone
 
-![Preview-Screens]()
+![Preview-Screens](https://github.com/LucasDanieel/whatsapp-clone/blob/main/gifs/whatsapp-gif.gif)
 
 A ideia desse aplicativo é recriar o WhatsApp e permitir a interação entre pessoas por meio de mensagens.
 
