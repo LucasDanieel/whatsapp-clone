@@ -12,9 +12,9 @@ namespace Whatsapp.Infra.Data.Integrations
         private readonly IUserRepository _userRepository;
         private readonly IMessageRepository _messageRepository;
         private readonly Cloudinary _cloudinary;
-        private readonly string CLOUD_NAME = "dbusijp42";
-        private readonly string API_KEY = "922553577342242";
-        private readonly string API_SECRET = "pRUVxsb8r3Z4k-KdP5A7nGO-yag";
+        private readonly string CLOUD_NAME = "CLOUD_NAME";
+        private readonly string API_KEY = "API_KEY";
+        private readonly string API_SECRET = "API_SECRET";
 
         public SaveImageInCloudinary(IUserRepository userRepository, IMessageRepository messageRepository)
         {
